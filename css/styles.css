@@ -253,3 +253,60 @@ header {
     flex-grow: 1;
     margin: 0;
 }
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
+}
+
+/* Formulaire de contact */
+.content form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.content form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content form input[type="text"],
+.content form input[type="email"],
+.content form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.content form textarea {
+    resize: vertical;
+}
+
+.content form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+

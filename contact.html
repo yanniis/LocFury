@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vitrine</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -19,25 +19,20 @@
     </nav>
 
     <div class="full-page-title">
-        <h1>Vitrine</h1>
+        <h1>Contact</h1>
     </div>
 
     <div class="content">
-        <div class="car-section">
-            <img src="./img/car1.jpg" alt="Voiture 1">
-            <div>
-                <p><strong>Voiture 1:</strong> Description de la voiture 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.</p>
-                <a href="contact.html" class="contact-button">Contactez-nous</a>
-            </div>
-        </div>
-        <div class="car-section">
-            <img src="./img/car2.jpg" alt="Voiture 2">
-            <div>
-                <p><strong>Voiture 2:</strong> Description de la voiture 2. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa.</p>
-                <a href="contact.html" class="contact-button">Contactez-nous</a>
-            </div>
-        </div>
-        <!-- Ajoutez d'autres sections de voiture ici -->
+        <h2>Formulaire de contact</h2>
+        <form action="#" method="POST">
+            <label for="name">Nom:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Envoyer">
+        </form>
     </div>
 
     <footer class="footer">
