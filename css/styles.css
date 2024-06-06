@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-color: #333;
     padding: 0;
-    
+
 }
 
 .navbar {
@@ -179,4 +179,77 @@ body {
 
 .content p strong {
     color: #007bff; /* Change la couleur des titres des parties */
+}
+
+.content .history-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.content .history-section img {
+    width: 33%;
+    margin-right: 20px;
+}
+
+.content .history-section p {
+    width: 66%;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Ajoutez ceci pour le mot "Vitrine" qui prend toute la première page */
+.full-page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    font-size: 5em;
+    text-transform: uppercase;
+    margin-top: 60px; /* Ajustez pour la hauteur de la navbar */
+}
+
+.content {
+    padding: 20px;
+    background-color: #fff; /* Pour différencier du fond de la section titre */
+    color: #333;
+}
+
+.car-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.car-section img {
+    width: 33%;
+    margin-right: 20px;
+}
+
+.car-section p {
+    width: 66%;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Assurez-vous que les images et le texte soient bien alignés */
+.car-section {
+    display: flex;
+    align-items: flex-start;
+}
+
+.car-section img {
+    flex-shrink: 0;
+}
+
+.car-section p {
+    flex-grow: 1;
+    margin: 0;
 }
