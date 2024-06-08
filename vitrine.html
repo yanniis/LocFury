@@ -28,6 +28,9 @@
             <div>
                 <p><strong>Voiture 1:</strong> Description de la voiture 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.</p>
                 <a href="contact.html" class="contact-button">Contactez-nous</a>
+                <button class="like-button" onclick="openPopup('like', 'car1')">Like</button>
+                <button class="dislike-button" onclick="openPopup('dislike', 'car1')">Dislike</button>
+                
             </div>
         </div>
         <div class="car-section">
@@ -35,9 +38,23 @@
             <div>
                 <p><strong>Voiture 2:</strong> Description de la voiture 2. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa.</p>
                 <a href="contact.html" class="contact-button">Contactez-nous</a>
+                <button class="like-button" onclick="openPopup('like', 'car2')">Like</button>
+                <button class="dislike-button" onclick="openPopup('dislike', 'car2')">Dislike</button>
             </div>
         </div>
         <!-- Ajoutez d'autres sections de voiture ici -->
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Entrez votre email</h2>
+            <form id="emailForm">
+                <input type="email" id="userEmail" name="email" placeholder="Votre email" required>
+                <input type="hidden" id="actionType" name="action">
+                <input type="hidden" id="carId" name="car">
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
     </div>
 
     <footer class="footer">
